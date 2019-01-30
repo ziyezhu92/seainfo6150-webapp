@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
+
 import './App.css';
 import Article from './Article';
 import MarkedUpArticle from './MarkedUpArticle';
+
+import List from './List';
+import AddingMachine from './AddingMachine';
+import ArticleTable from './ArticleTable';
+import articles from './data/articles.json';
+
 
 class App extends Component {
   render() {
@@ -13,6 +20,7 @@ class App extends Component {
       		author = "Kate Farley">
       		<MarkedUpArticle/>
       	</Article>
+        <ArticleTable articles={articles} />
       </div>
     );
   }
