@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      	// <Article 
+      	// <Article
       	// 	title = "The Statue of Liberty's torch heads to new museum"
       	// 	date = "November 22, 2018"
       	// 	author = "Kate Farley">
