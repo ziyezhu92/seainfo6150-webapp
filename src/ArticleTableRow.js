@@ -6,7 +6,8 @@ class ArticleTableRow extends React.Component {
     super(props);
     this.state = {
       selected: false
-    };
+    }
+    this.onClick=this.onClick.bind(this);
   }
 
   onClick() {
@@ -30,7 +31,13 @@ class ArticleTableRow extends React.Component {
     // onClick={this.onClick.bind(this)}
     //
     return (
-      <tr><td>Replace this div with your table row HTML</td></tr>
+      <tr>
+        <td><input type="checkbox" onClick={this.onClick.bind(this)}/></td>
+        <td>{selectedStatus}</td>
+        <td><address>{this.props.author}</address></td>
+        <td><time dateTime="2018">{this.props.date}</time></td>
+        <td>{this.props.shortText}</td>
+      </tr>
     );
   }
 

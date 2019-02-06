@@ -5,19 +5,31 @@ import ArticleTableRow from './ArticleTableRow';
 const ArticleTable = ({ articles }) => (
 
   <table border="1">
-  {
-    // this iterates through the articles JSON and
-    // calls your ArticleTableRow component for each article
-    Object.values(articles).map(article => {
-      return <ArticleTableRow
-        key={article.slug}
-        title={article.title}
-        date={article.pubDate}
-        author={article.author}
-        shortText={article.shortText}
-      />
-    })
-  }
+    <caption>Article List</caption>
+    <thead>
+      <tr>
+        <td>Select</td>
+        <td>Status</td>
+        <td>Author</td>
+        <td>Date</td>
+        <td>Text</td>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        // this iterates through the articles JSON and
+        // calls your ArticleTableRow component for each article
+        Object.values(articles).map(article => {
+          return <ArticleTableRow
+            key={article.slug}
+            title={article.title}
+            date={article.pubDate}
+            author={article.author}
+            shortText={article.shortText}
+          />
+        })
+      }
+    </tbody>
   </table>
 
 );
