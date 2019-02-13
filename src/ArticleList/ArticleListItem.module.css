@@ -1,0 +1,33 @@
+.container{
+  background-color: #F5F5F5;
+  border: 1px solid red;
+  margin: 3%;
+  padding: 1%;
+}
+
+.title{
+  color: rgb(220,60,20);
+  text-align: left;
+  font-weight: bold;
+  font-size: 120%;
+  padding: 3px;
+}
+
+.shortText{
+  text-align: left;
+  font-weight: lighter;
+  font-family: sans-serif;
+  padding: 3px
+}
+
+.author{
+  text-align: right;
+  font-style: oblique;
+  font-family: sans-serif;
+}
+
+.date{
+  font-weight: bold;
+  text-align: right;
+  font-family: sans-serif;
+}
