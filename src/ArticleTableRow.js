@@ -7,7 +7,7 @@ class ArticleTableRow extends React.Component {
     this.state = {
       selected: false
     }
-    this.onClick=this.onClick.bind(this);
+    //this.onClick=this.onClick.bind(this);
   }
 
   onClick() {
