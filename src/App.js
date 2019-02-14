@@ -10,6 +10,7 @@ import ArticleTable from './ArticleTable';
 import articles from './data/articles.json';
 import ArticleList from './ArticleList/ArticleList';
 
+
 class App extends Component {
   render() {
     return (
