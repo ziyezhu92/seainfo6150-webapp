@@ -11,7 +11,7 @@ class ArticleListItem extends React.Component {
           url={this.props.url}
           title={this.props.title}
           />
-      <div>
+      <div className={styles.right_contanier}>
         <div className={styles.title}>{this.props.title}</div>
         <div className={styles.shortText}>{this.props.shortText}</div>
         <address className={styles.author}>By: {this.props.author}</address>
