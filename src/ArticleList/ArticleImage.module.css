@@ -1,0 +1,9 @@
+.image {
+  float: left;
+  height: 20%;
+  width: 20%;
+  border: 6px solid red;
+  border-radius: 50%;
+  margin: 3%;
+  box-shadow: 0 0.5em 0.5em grey;
+}
