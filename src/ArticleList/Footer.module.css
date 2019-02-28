@@ -1,0 +1,10 @@
+.container {
+  background-color: red;
+  padding: 3%;
+  height: 100px;
+  display: flex;
+}
+
+.text {
+  color: white;
+}

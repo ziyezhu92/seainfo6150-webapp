@@ -1,9 +1,8 @@
 .unorderedList{
-  border: 0.5px dashed;
-  margin: 3%;
-  padding: 0;
   list-style: none;
   background-color: #999999;
-  border-radius: 0.5em;
-  box-shadow: 0 0.5em 0.5em grey;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1%;
 }

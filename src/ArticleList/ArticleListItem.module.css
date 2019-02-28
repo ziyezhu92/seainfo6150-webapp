@@ -1,48 +1,39 @@
 .container{
   background-color: #F5F5F5;
-  width: 90%;
   border: 1.5px solid red;
   margin: 3% auto 3% auto;
-  padding: 1%;
+  padding: 5%;
   display: flex;
-  border-radius: 0.7em;
+  flex-direction: column;
   background: linear-gradient(to right, red -25%, #F8F8F8 10%);
   box-shadow: 0 0.5em 0.5em lightgrey;
-}
-
-.right_contanier{
-  width: 80%;
 }
 
 .title{
   color: rgb(220,60,20);
   font-weight: bold;
   font-size: 120%;
-  padding: 10px;
-  text-align: left;
   font-family: sans-serif;
+}
+
+.right_contanier{
+  font-size: 80%;
 }
 
 .shortText{
-  font-weight: lighter;
   font-family: sans-serif;
-  padding: 10px;
   text-align: left;
+  margin-bottom: 15%;
 }
 
 .author{
-  text-align: right;
+  text-align: left;
   font-style: oblique;
-  padding-top: 80px;
   font-family: sans-serif;
 }
 
 .date{
   font-weight: bold;
-  text-align: right;
+  text-align: left;
   font-family: sans-serif;
-}
-
-.textArea {
-  width: 80%
 }

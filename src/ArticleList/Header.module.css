@@ -1,0 +1,19 @@
+.container {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  height: 100px;
+  align-items: center;
+}
+
+.text {
+  font-weight: bold;
+  color: white;
+  font-size: x-large;
+}
+
+.date {
+  color: white;
+  font-size: small;
+}

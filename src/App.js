@@ -4,6 +4,7 @@ import './App.css';
 
 import articles from './data/articles.json';
 import ArticleList from './ArticleList/ArticleList';
+import HomePage from './ArticleList/HomePage';
 
 
 class App extends Component {
@@ -15,8 +16,15 @@ class App extends Component {
       // </div>
 
       //Assignment 5/6 part
+      // <div className="App">
+      //   <ArticleList articles={articles} />
+      // </div>
+
+      //Assignment 7 part
       <div className="App">
-        <ArticleList articles={articles} />
+        <HomePage
+          articles={articles}
+        />
       </div>
     );
   }
