@@ -1,8 +1,38 @@
 .unorderedList{
   list-style: none;
   background-color: #999999;
-  background-color: gray;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1 100%;
   padding: 1%;
+}
+
+
+@media (min-width: 480px) {
+  .list {
+    list-style: none;
+    background-color: #999999;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .list {
+    list-style: none;
+    background-color: #999999;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1%;
+  }
+}
+
+@media (min-width: 2048px) {
+  .list {
+    list-style: none;
+    background-color: #999999;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1%;
+  }
 }

@@ -17,3 +17,14 @@
   color: white;
   font-size: small;
 }
+
+@media (max-width: 480px) {
+  .container {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    height: 50px;
+    align-items: center;
+  }
+}
