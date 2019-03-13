@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import './App.css';
-
+import Article from './Article';
+import MarkedUpArticle from './MarkedUpArticle';
 import articles from './data/articles.json';
 import ArticleList from './ArticleList/ArticleList';
 
@@ -15,8 +16,18 @@ class App extends Component {
       // </div>
 
       //Assignment 5/6 part
+      // <div className="App">
+      //   <ArticleList articles={articles} />
+      // </div>
+
+      //Assignment 3 Part
       <div className="App">
-        <ArticleList articles={articles} />
+            	<Article
+            		title = "The Statue of Liberty's torch heads to new museum"
+            		date = "November 22, 2018"
+            		author = "Kate Farley">
+            		<MarkedUpArticle/>
+            	</Article>
       </div>
     );
   }
