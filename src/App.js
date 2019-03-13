@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import articles from './data/articles.json';
-import ArticleList from './ArticleList/ArticleList';
+// import ArticleList from './ArticleList/ArticleList';
 import HomePage from './ArticleList/HomePage';
 
 

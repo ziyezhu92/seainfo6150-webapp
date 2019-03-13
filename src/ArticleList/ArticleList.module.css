@@ -8,7 +8,7 @@
 
 
 @media (min-width: 480px) {
-  .list {
+  .unorderedList {
     list-style: none;
     background-color: #999999;
     display: grid;
@@ -18,20 +18,22 @@
 }
 
 @media (min-width: 1024px) {
-  .list {
+  .unorderedList {
     list-style: none;
     background-color: #999999;
     display: grid;
+    margin: 3% auto 3% auto;
     grid-template-columns: repeat(3, 1fr);
     padding: 1%;
   }
 }
 
 @media (min-width: 2048px) {
-  .list {
+  .unorderedList {
     list-style: none;
     background-color: #999999;
     display: grid;
+    margin: auto;
     grid-template-columns: repeat(4, 1fr);
     padding: 1%;
   }
